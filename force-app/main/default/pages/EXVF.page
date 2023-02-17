@@ -1,0 +1,11 @@
+<apex:page controller="search" sidebar="false" showHeader="false" id="testpage">
+    <apex:form style="background-color:white;border-width:1px;margin-left:180px;margin-bottom:10px">
+	<apex:selectRadio value="{!searchCategory}" >
+    <apex:selectOption itemValue="Member" itemlabel="Member"/>
+    <apex:selectOption itemValue="Blog" itemlabel="Blog"/>
+    <apex:selectOption itemValue="Photo" itemlabel="Photo"/>
+</apex:selectRadio>
+    </apex:form>
+
+
+</apex:page>
